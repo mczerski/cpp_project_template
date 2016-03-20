@@ -15,3 +15,8 @@ root/
     test/ <- here goes test code
     main.cpp
 ```
+
+Before you start, change the project name in main CMakeLists.txt from reference to TEMPLATE_PROJECT variable to something meaningful, e.g.:
+```
+project (my_project)
+```
